@@ -11,7 +11,7 @@ output:
 require(knitr)
 require(tidyverse)
 require(tigerstats)
-
+require(mosaic)
 ```
 
 # Introduction
@@ -50,6 +50,12 @@ From the box plot it appears that, the students in less than high school have a 
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(WORDSUM~DEGREE,data=gssDataframe)
+```
+
+From this table it appears that the median of the Graduate students is the greatest with 11. On the other hand there is a difference in the abiulity in the WORDSUM.
 
 ## Inferential Results
 
