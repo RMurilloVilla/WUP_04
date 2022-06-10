@@ -73,7 +73,7 @@ par(mar = c(3, 15, 2, 2))
 plot(TukeyHSD(model1),las=2)
 ```
 
-Based on the graph, there is a difference between High School-Graduate and also between less than High School and Graduate. This is because those levels don't cross at touch the zero.
+Based on the graph, there is a difference between High School-Graduate and also between less than High School and Graduate. This is because those levels don't cross or touch the zero.
 
 # Discussion and Conclusion
 
